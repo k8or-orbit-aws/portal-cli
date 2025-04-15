@@ -26,3 +26,6 @@ portal-cli = "main_cli:cli"
 
 [project.urls]
 "Homepage" = "https://github.com/k8or-orbit-aws/portal-cli"
+
+[tool.setuptools.package-data]
+"portal_cli" = ["main_cli.py"]
