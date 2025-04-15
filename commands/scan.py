@@ -2,7 +2,7 @@ import click
 import requests
 import json
 
-SCAN_API_URL = "https://portal.k8or.com/scan/flow-4-portal-scan-cod-php-0424-rep-k8d-aws/v1/api/scan-image"
+SCAN_API_URL = "https://portal.k8or.com/scan-api/flow-9-scna0912-no-us-en-kd-lo-src-cod-php-rep-kd-aws/scan-api/scan-image"
 
 @click.command("scan")  # Important: The name of the command
 @click.option("--image-uid", required=True, help="Image UID.")

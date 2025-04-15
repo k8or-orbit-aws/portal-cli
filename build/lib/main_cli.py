@@ -2,7 +2,7 @@ import click
 from commands import upload, search, scan, chart, transfer, deploy, get_scan_data
 
 # Define the version directly in this file
-__version__ = "0.1.15"  # Change this to your desired version
+__version__ = "0.1.20"  # Change this to your desired version
 
 def print_version(ctx, param, value):
     if not value or ctx.resilient_parsing:
